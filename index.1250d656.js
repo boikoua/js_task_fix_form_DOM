@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("form").forEach(function(e){e.querySelectorAll("input").forEach(function(e){var t=document.createElement("label");t.classList.add("field-label"),"firstName"===e.name?(t.textContent="First Name",e.placeholder="First Name"):"lastName"===e.name?(t.textContent="Last Name",e.placeholder="Last Name"):(t.textContent=e.name,e.placeholder=e.name[0].toUpperCase()+e.name.slice(1)),t.setAttribute("for",e.id),e.parentNode.insertBefore(t,e)})})});
+//# sourceMappingURL=index.1250d656.js.map
